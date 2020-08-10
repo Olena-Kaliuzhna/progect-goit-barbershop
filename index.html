@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">Barbershop</title>
-    <link rel="stylesheet" href="./css/slick.min.css" />
+    <!-- <link rel="stylesheet" href="./css/slick.min.css" /> -->
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
@@ -42,13 +42,17 @@
                   <div class="nav-menu">
                     <ul class="page-nav-list">
                       <li class="page-nav-item">
-                        <a class="page-nav-link" href="#">О нас</a>
+                        <a class="page-nav-link" href="#about-us">О нас</a>
                       </li>
                       <li class="page-nav-item">
-                        <a class="page-nav-link" href="#">Услуги и цены</a>
+                        <a class="page-nav-link" href="#price">Услуги и цены</a>
                       </li>
-                      <li class="page-nav-item"><a class="page-nav-link" href="#">Мастера</a></li>
-                      <li class="page-nav-item"><a class="page-nav-link" href="#">Контакты</a></li>
+                      <li class="page-nav-item">
+                        <a class="page-nav-link" href="#team">Мастера</a>
+                      </li>
+                      <li class="page-nav-item">
+                        <a class="page-nav-link" href="#contacts">Контакты</a>
+                      </li>
                     </ul>
 
                     <!--Contacts-->
@@ -57,7 +61,7 @@
                         <a class="nav-contacts-tel" href="tel:+380441111111">+38 044 111 11 11</a>
                       </li>
                       <li class="nav-contacts-item">
-                        <a class="nav-contacts-button" href="#">онлайн-запись</a>
+                        <a class="nav-contacts-button" href="#booking">онлайн-запись</a>
                       </li>
                     </ul>
 
@@ -99,6 +103,579 @@
         </div>
       </div>
     </header>
+
+    <main>
+      <section id="about-us" class="container">
+        <div class="container-about">
+          <div class="about-picture">
+            <picture>
+              <source srcset="./images/about3.jpg" media="(min-width: 1200px)" />
+              <source srcset="./images/about1.jpg" media="(max-width: 768px)" />
+              <img src="./images/about1.jpg" alt="Борода" />
+            </picture>
+            <picture>
+              <source srcset="./images/about4.jpg" media="(min-width: 1200px)" />
+              <source srcset="./images/about2.jpg" media="(max-width: 768px)" />
+              <img src="./images/about2.jpg" alt="Борода" />
+            </picture>
+          </div>
+          <div class="about-content">
+            <p class="about-subtitle">О НАС</p>
+            <h3 class="about-title">
+              Лучший Барбершоп <br />
+              твоего города
+            </h3>
+            <p class="about-text">
+              Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.
+            </p>
+            <p class="about-desc">
+              Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И
+              когда ты попадешь в руки нашего мастера, то уже никогда не сможешь быть прежним. Мы
+              команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы
+              усовершенствовать каждого, кто к нам приходит!
+            </p>
+            <button class="about-button">онлайн-запись</button>
+          </div>
+        </div>
+      </section>
+
+      <!--price-->
+      <section id="price" class="price-section">
+        <div class="container">
+          <div class="price-text-box">
+            <h2 class="price-text">
+              ПРОВЕДИ ВРЕМЯ В КОМПАНИИ ЛУЧШИХ МАСТЕРОВ
+            </h2>
+          </div>
+          <h3 class="price-title">Услуги и цены</h3>
+          <div class="price-block">
+            <ul class="service1 list">
+              <li>
+                <span class="service-item">Мужская стрижка</span>
+                <span class="service-grn">от 300 грн.</span>
+              </li>
+              <li>
+                <span class="service-item">Стрижка бороды</span>
+                <span class="service-grn">от 200 грн.</span>
+              </li>
+              <li>
+                <span class="service-item">Стрижка усов</span>
+                <span class="service-grn">от 200 грн.</span>
+              </li>
+              <li>
+                <span class="service-item">Бритье опасной бритвой</span>
+                <span class="service-grn">от 200 грн.</span>
+              </li>
+            </ul>
+
+            <ul class="service2 list">
+              <li>
+                <span class="service-item">Стрижка у стажера</span>
+                <span class="service-grn">от 50 гpн.</span>
+              </li>
+              <li>
+                <span class="service-item">Стрижка под насадку</span>
+                <span class="service-grn">от 200 грн.</span>
+              </li>
+              <li>
+                <span class="service-item">Детская стрижка (до 12 лет)</span>
+                <span class="service-grn">от 300 грн.</span>
+              </li>
+              <li>
+                <span class="service-item">Камуфлирование седины</span>
+                <span class="service-grn">от 200 грн.</span>
+              </li>
+            </ul>
+          </div>
+          <button class="button-price">ОНЛАЙН-ЗАПИСЬ</button>
+        </div>
+      </section>
+      <section class="advantages-section">
+        <div class="container advantages-container">
+          <div class="advantages-header-container">
+            <p class="advantages-header">cтарая традиционная школа</p>
+            <h3 class="advantages-title">Почему приходят именно к нам?</h3>
+            <p class="advantages-description">
+              О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз
+              прочитать.
+            </p>
+          </div>
+
+          <div class="advantages-list">
+            <ul class="advantages-list1">
+              <li class="advantages-item">
+                <p class="achievements">
+                  600<sup>+</sup><br /><span class="achievements-description"
+                    >Довольных клиентов <br />
+                    в день</span
+                  >
+                </p>
+              </li>
+              <li class="advantages-item">
+                <p class="achievements">
+                  20<sup>+</sup><br /><span class="achievements-description"
+                    >Лучших мастеров
+                    <br />
+                    Киева</span
+                  >
+                </p>
+              </li>
+            </ul>
+            <ul class="advantages-list2">
+              <li class="advantages-item">
+                <p class="achievements">
+                  50<sup>+</sup><br /><span class="achievements-description"
+                    >Наград за отличный
+                    <br />
+                    сервис
+                  </span>
+                </p>
+              </li>
+              <li class="advantages-item">
+                <p class="achievements">
+                  100<sup>+</sup><br /><span class="achievements-description"
+                    >Подарков постоянным <br />
+                    клиентам</span
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="team" class="section team">
+        <div class="container">
+          <div class="subtitle-box">
+            <svg class="icon-rectangle">
+              <use href="/images/symbol-defs.svg#icon-Rectangle"></use>
+            </svg>
+            <h2 class="section-subtitle">для настоящих ценителей атмосферы</h2>
+          </div>
+          <h3 class="section-title">Наши мастера</h3>
+          <ul class="team-card">
+            <li class="team-member">
+              <picture>
+                <source
+                  srcset="
+                    /images/john-smith-418.webp    418w,
+                    /images/john-smith-418@2x.webp 836w,
+                    /images/john-smith-370.webp    370w,
+                    /images/john-smith-370@2x.webp 740w,
+                    /images/john-smith-450.webp    450w,
+                    /images/john-smith-450@2x.webp 900w
+                  "
+                  type="image/webp"
+                  sizes="(min-width: 768px) 450px, (min-width: 1280px) 370px, 100vw"
+                />
+                <source
+                  srcset="
+                    /images/john-smith-418.jpg    418w,
+                    /images/john-smith-418@2x.jpg 836w,
+                    /images/john-smith-370.jpg    370w,
+                    /images/john-smith-370@2x.jpg 740w,
+                    /images/john-smith-450.jpg    450w,
+                    /images/john-smith-450@2x.jpg 900w
+                  "
+                  sizes="(min-width: 768px) 450px, (min-width: 1280px) 370px, 100vw"
+                />
+                <img src="/images/john-smith-418.jpg" alt="John Smith" />
+              </picture>
+              <h4 lang="en" class="team-name">John Smith</h4>
+              <p lang="en" class="team-profession">Extreme Barber</p>
+              <div class="social-box">
+                <ul class="team-social">
+                  <li class="social-item">
+                    <a class="social-link" href="#">
+                      <svg class="social-icon">
+                        <use href="/images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href="#">
+                      <svg class="social-icon">
+                        <use href="/images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href="#">
+                      <svg class="social-icon">
+                        <use href="/images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href="#">
+                      <svg class="social-icon">
+                        <use href="/images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-member">
+              <picture>
+                <source
+                  srcset="
+                    /images/michele-doe-418.webp    418w,
+                    /images/michele-doe-418@2x.webp 836w,
+                    /images/michele-doe-370.webp    370w,
+                    /images/michele-doe-370@2x.webp 740w,
+                    /images/michele-doe-450.webp    450w,
+                    /images/michele-doe-450@2x.webp 900w
+                  "
+                  type="image/webp"
+                  sizes="(min-width: 768px) 450px, (min-width: 1280px) 370px, 100vw"
+                />
+                <source
+                  srcset="
+                    /images/michele-doe-418.jpg    418w,
+                    /images/michele-doe-418@2x.jpg 836w,
+                    /images/michele-doe-370.jpg    370w,
+                    /images/michele-doe-370@2x.jpg 740w,
+                    /images/michele-doe-450.jpg    450w,
+                    /images/michele-doe-450@2x.jpg 900w
+                  "
+                  sizes="(min-width: 768px) 450px, (min-width: 1280px) 370px, 100vw"
+                />
+                <img src="/images/michele-doe-418.jpg" alt="Michele Doe" />
+              </picture>
+              <h4 lang="en" class="team-name">Michele Doe</h4>
+              <p lang="en" class="team-profession">Extreme Barber</p>
+              <div class="social-box">
+                <ul class="team-social">
+                  <li class="social-item">
+                    <a class="social-link" href="#">
+                      <svg class="social-icon">
+                        <use href="/images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href="#">
+                      <svg class="social-icon">
+                        <use href="/images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href="#">
+                      <svg class="social-icon">
+                        <use href="/images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href="#">
+                      <svg class="social-icon">
+                        <use href="/images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-member">
+              <picture>
+                <source
+                  srcset="
+                    /images/alan-black-418.webp    418w,
+                    /images/alan-black-418@2x.webp 836w,
+                    /images/alan-black-370.webp    370w,
+                    /images/alan-black-370@2x.webp 740w,
+                    /images/alan-black-450.webp    450w,
+                    /images/alan-black-450@2x.webp 900w
+                  "
+                  type="image/webp"
+                  sizes="(min-width: 768px) 450px, (min-width: 1280px) 370px, 100vw"
+                />
+                <source
+                  srcset="
+                    /images/alan-black-418.jpg    418w,
+                    /images/alan-black-418@2x.jpg 836w,
+                    /images/alan-black-370.jpg    370w,
+                    /images/alan-black-370@2x.jpg 740w,
+                    /images/alan-black-450.jpg    450w,
+                    /images/alan-black-450@2x.jpg 900w
+                  "
+                  sizes="(min-width: 768px) 450px, (min-width: 1280px) 370px, 100vw"
+                />
+                <img src="/images/alan-black-418.jpg" alt="Alan Black" />
+              </picture>
+              <h4 lang="en" class="team-name">Alan Black</h4>
+              <p lang="en" class="team-profession">Extreme Barber</p>
+              <div class="social-box">
+                <ul class="team-social">
+                  <li class="social-item">
+                    <a class="social-link" href="#">
+                      <svg class="social-icon">
+                        <use href="/images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href="#">
+                      <svg class="social-icon">
+                        <use href="/images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href="#">
+                      <svg class="social-icon">
+                        <use href="/images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href="#">
+                      <svg class="social-icon">
+                        <use href="/images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="container container-foto">
+          <div class="position">
+            <p class="word">На латинском языке “барба” означает “борода”</p>
+          </div>
+          <ul class="galeri">
+            <li class="galeri-item">
+              <picture>
+                <source
+                  srcset="./images/master-270.webp"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/master-270.jpg"
+                  media="(min-width: 768px)"
+                  type="image/jpg"
+                />
+
+                <source
+                  srcset="./images/master-540.webp"
+                  media="(min-width: 480px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/master-540.jpg"
+                  media="(min-width: 480px)"
+                  type="image/jpg"
+                />
+
+                <source srcset="./images/master-270.webp" type="image/webp" />
+                <source srcset="./images/master-270.jpg" type="image/jpg" />
+
+                <img src="./images/master-270.jpg" alt="мужская стрижка" />
+              </picture>
+            </li>
+            <li class="galeri-item">
+              <picture>
+                <source
+                  srcset="./images/face-270.webp"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/face-270.jpg"
+                  media="(min-width: 768px)"
+                  type="image/jpg"
+                />
+
+                <source
+                  srcset="./images/face-540.webp"
+                  media="(min-width: 480px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/face-540.jpg"
+                  media="(min-width: 480px)"
+                  type="image/jpg"
+                />
+
+                <source srcset="./images/face-270.webp" type="image/webp" />
+                <source srcset="./images/face-270.jpg" type="image/jpg" />
+
+                <img src="./images/face-270.jpg" alt="стрижка бороды" />
+              </picture>
+            </li>
+            <li class="galeri-item">
+              <picture>
+                <source
+                  srcset="./images/preview-270.webp"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/preview-270.jpg"
+                  media="(min-width: 768px)"
+                  type="image/jpg"
+                />
+
+                <source
+                  srcset="./images/preview-540.webp"
+                  media="(min-width: 480px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/preview-540.jpg"
+                  media="(min-width: 480px)"
+                  type="image/jpg"
+                />
+
+                <source srcset="./images/preview-270.webp" type="image/webp" />
+                <source srcset="./images/preview-270.jpg" type="image/jpg" />
+
+                <img src="./images/preview-270.jpg" alt="косметология" />
+              </picture>
+            </li>
+            <li class="galeri-item">
+              <picture>
+                <source
+                  srcset="./images/hair-270.webp"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/hair-270.jpg"
+                  media="(min-width: 768px)"
+                  type="image/jpg"
+                />
+
+                <source
+                  srcset="./images/hair-540.webp"
+                  media="(min-width: 480px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/hair-540.jpg"
+                  media="(min-width: 480px)"
+                  type="image/jpg"
+                />
+
+                <source srcset="./images/hair-270.webp" type="image/webp" />
+                <source srcset="./images/hair-270.jpg" type="image/jpg" />
+
+                <img src="./images/hair-270.jpg" alt="прическа" />
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="set-footer">
+          <div id="booking" class="form-footer">
+            <h2 class="form-title">Онлайн-запись</h2>
+            <form class="form" autocomplete="off">
+              <div class="form-input-set">
+                <div class="form-field name">
+                  <input type="text" name="name" id="name" class="form-input" placeholder=" " />
+                  <label for="name" class="form-label">Имя*</label>
+                </div>
+
+                <div class="form-field tel">
+                  <input
+                    type="tel"
+                    name="tel"
+                    id="tel"
+                    class="form-input telephone"
+                    placeholder=" "
+                  />
+                  <label for="tel" class="form-label">Телефон*</label>
+                </div>
+
+                <div class="textarea-footer">
+                  <textarea
+                    name="comment"
+                    rows="5"
+                    cols="5"
+                    class="comment"
+                    placeholder="Сообщение"
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="button-footer">
+                  Отправить
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div id="contacts" class="address-footer">
+            <h2 class="contacts-title">Контакты</h2>
+
+            <div class="address-time">
+              <address>
+                <ul class="list address-list">
+                  <li class="item-adress">
+                    <a href="" class="footer-contacts br">
+                      <svg class="icons" width="24" height="24">
+                        <use href="./images/map-pin.svg"></use>
+                      </svg>
+                      ул. Васильковая, 7А Киев, 08132
+                    </a>
+                  </li>
+
+                  <li class="item-adress">
+                    <a href="" class="footer-contacts links">
+                      <svg class="icons" width="24" height="24">
+                        <use href="./images/sprite-icon.svg/#phone"></use>
+                      </svg>
+                      +38 044 111 11 11</a
+                    >
+                  </li>
+
+                  <li class="item-adress">
+                    <a href="" class="footer-contacts links">
+                      <svg class="icons" width="24" height="24">
+                        <use href="./images/sprite-icon.svg/#mail"></use>
+                      </svg>
+                      barbershop@email.com</a
+                    >
+                  </li>
+                </ul>
+              </address>
+
+              <div class="time-work">
+                <h3 class="time-title">время работы</h3>
+                <p class="time-open">Ежедневно с 9:00 до 22:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p class="copy">
+            <svg class="icon-copy" width="12" height="12">
+              <use href="./images/sprite-icon.svg/#group"></use>
+            </svg>
+            Copyright 2020
+          </p>
+
+          <ul class="social">
+            <li class="social-footer-item">
+              <a href="" class="social-links">Instagram </a>
+            </li>
+
+            <li class="social-footer-item">
+              <a href="" class="social-links">Youtube </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
