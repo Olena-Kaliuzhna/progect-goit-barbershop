@@ -126,7 +126,7 @@ textarea::placeholder {
 
 .footer-contacts {
   display: flex;
-  align-items: start;
+  align-items: center;
 
   font-style: normal;
   font-family: $primary-font-family;
@@ -147,7 +147,7 @@ textarea::placeholder {
 }
 
 .icons {
-  display: inline-block;
+  display: inline;
   margin-right: 16px;
   width: 24px;
   height: 24px;
@@ -300,7 +300,7 @@ textarea::placeholder {
   }
 
   .address-list {
-    // padding-left: 31px;
+    padding-left: 31px;
     // text-align: left;
   }
 
@@ -423,7 +423,7 @@ textarea::placeholder {
   }
 
   .br {
-    white-space: pre-line;
+    max-width: 270px;
   }
 
   .time-work {
@@ -530,7 +530,7 @@ textarea::placeholder {
   }
 
   .br {
-    white-space: pre-line;
+    max-width: 270px;
   }
 
   .time-work {

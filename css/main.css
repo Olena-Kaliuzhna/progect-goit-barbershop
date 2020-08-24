@@ -1089,9 +1089,8 @@ img {
     top: 0;
     left: 0;
     z-index: 10;
-    width: 100vw;
-    height: 100vh;
-    overflow-y: auto;
+    width: 767px;
+    height: 796px;
     background: rgba(25, 28, 38, 0.8);
     -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.16);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.16);
@@ -1157,8 +1156,7 @@ img {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     max-width: 337px;
-    height: 100vh;
-    overflow-y: auto;
+    height: 796px;
     padding: 118px 40px;
     text-align: left;
     background: #ffffff;
@@ -2647,9 +2645,9 @@ textarea::placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-style: normal;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -2668,7 +2666,7 @@ textarea::placeholder {
 }
 
 .icons {
-  display: inline-block;
+  display: inline;
   margin-right: 16px;
   width: 24px;
   height: 24px;
@@ -2809,6 +2807,9 @@ textarea::placeholder {
     margin-bottom: 40px;
     text-align: center;
   }
+  .address-list {
+    padding-left: 31px;
+  }
   .item-adress {
     margin-bottom: 20px;
   }
@@ -2931,7 +2932,7 @@ textarea::placeholder {
             text-decoration-line: underline;
   }
   .br {
-    white-space: pre-line;
+    max-width: 270px;
   }
   .time-work {
     width: 330px;
@@ -3033,7 +3034,7 @@ textarea::placeholder {
             text-decoration-line: underline;
   }
   .br {
-    white-space: pre-line;
+    max-width: 270px;
   }
   .time-work {
     padding-top: 70px;

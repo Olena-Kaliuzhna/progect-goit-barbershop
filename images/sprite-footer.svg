@@ -4,8 +4,8 @@
 <path fill="#9da4bd"  d="M15.808 11.424c2.048 0.096 2.576 1.84 2.608 2.656h2.864c-0.128-3.168-2.384-5.104-5.52-5.104-3.536 0-6.16 2.224-6.16 7.248 0 3.104 1.488 6.784 6.144 6.784 3.552 0 5.456-2.64 5.504-4.72h-2.864c-0.048 0.944-0.72 2.208-2.608 2.304-2.096-0.064-2.976-1.696-2.976-4.368 0-4.624 2.048-4.768 3.008-4.8zM16 0c-8.832 0-16 7.168-16 16s7.168 16 16 16c8.832 0 16-7.168 16-16s-7.168-16-16-16zM16 28.8c-7.056 0-12.8-5.744-12.8-12.8s5.744-12.8 12.8-12.8c7.056 0 12.8 5.744 12.8 12.8s-5.744 12.8-12.8 12.8z"></path>
 </symbol>
 <symbol id="mail" viewBox="0 0 32 32">
-<path stroke="" stroke-width="1.3333" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--color1)" d="M6.4 6.667h19.2c1.32 0 2.4 1.049 2.4 2.333v14c0 1.283-1.080 2.333-2.4 2.333h-19.2c-1.32 0-2.4-1.051-2.4-2.333v-14c0-1.284 1.080-2.333 2.4-2.333z"></path>
-<path stroke="" stroke-width="1.3333" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--color1)" d="M26.667 9.333l-10.667 8-10.667-8"></path>
+<path stroke="" stroke-width="1.3333" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" d="M6.4 6.667h19.2c1.32 0 2.4 1.049 2.4 2.333v14c0 1.283-1.080 2.333-2.4 2.333h-19.2c-1.32 0-2.4-1.051-2.4-2.333v-14c0-1.284 1.080-2.333 2.4-2.333z"></path>
+<path stroke="" stroke-width="1.3333" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" d="M26.667 9.333l-10.667 8-10.667-8"></path>
 </symbol>
 <symbol id="map-pin" viewBox="0 0 32 32" width="24" height="24">
 <path  stroke="" stroke-width="1.3333" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--color1)" d="M26.667 13.819c0 7.635-10.667 14.181-10.667 14.181s-10.667-6.547-10.667-14.181c0-5.423 4.776-9.819 10.667-9.819s10.667 4.396 10.667 9.819v0z"></path>
